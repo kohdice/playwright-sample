@@ -1,0 +1,13 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "repository": "git@github.com:kohdice/playwright-sample.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.36.2",
+    "typescript": "5.0.4"
+  },
+  "scripts": {
+    "e2e": "playwright test"
+  }
+}

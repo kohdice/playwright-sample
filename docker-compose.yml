@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  pw:
+    image: mcr.microsoft.com/playwright:focal
+    container_name: pw
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    entrypoint: ['sh', './entrypoint.sh']
