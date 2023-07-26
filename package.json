@@ -1,6 +1,7 @@
 {
   "name": "playwright",
   "version": "1.0.0",
+  "private": true,
   "repository": "git@github.com:kohdice/playwright-sample.git",
   "license": "MIT",
   "devDependencies": {
